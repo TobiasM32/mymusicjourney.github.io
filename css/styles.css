@@ -38,8 +38,8 @@ nav {
 nav ul {
 	list-style-type: none;
 	text-align: center;
-	margin: 0
-	padding: 0
+	margin: 0;
+	padding: 0;
 	overflow: hidden
 }
 
@@ -49,6 +49,7 @@ nav li {
 	font-size: 2em;
 	border-top: 1px solid #e5e9fc;
 	float: left;
+	background-color: #373684;
 }
 
 nav li a {
@@ -57,6 +58,8 @@ nav li a {
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
+	background-color: #373684;
+
 }
 
 nav li a:hover {
