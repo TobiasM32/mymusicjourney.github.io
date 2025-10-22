@@ -1,7 +1,7 @@
 /*  
 Author: Tobias McMillan
 File Name: styles.css
-Date: 10/05/2025
+Date: 10/19/2025
 */
 
 /* CSS Reset */
@@ -111,7 +111,7 @@ main p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: #373684;
 }
 
 #info {
