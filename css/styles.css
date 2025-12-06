@@ -89,15 +89,15 @@ table {
 }
 
 td, th {
-	text-align: center;
+	align-content: center;
 	vertical-align: middle;
 	height: auto;
 	width: auto;
 	padding: 8px;
 }
 
-td, th {
-	text-align: center;
+iframe {
+	align-content: center;
 	vertical-align: middle;
 	height: auto;
 	width: auto;
