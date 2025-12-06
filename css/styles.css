@@ -35,7 +35,6 @@ header h1 {
 /* Style rules for navigation area */
 nav {
 	text-align: center;
-	background-color: #373684;
 }
 
 nav ul {
@@ -43,7 +42,9 @@ nav ul {
 	text-align: center;
 	margin: 0;
 	padding: 0;
-	overflow: hidden
+	/*overflow: hidden*/
+	display: flex;
+	justify-content: center;
 }
 
 /* source: https://www.w3schools.com/css/css_navbar_horizontal.asp */
