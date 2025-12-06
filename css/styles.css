@@ -177,4 +177,8 @@ footer {
 footer a {
     color: #4645a8;
     text-decoration: none;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: whitesmoke;
 }
