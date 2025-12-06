@@ -96,6 +96,13 @@ td, th {
 	padding: 8px;
 }
 
+td, th {
+	text-align: center;
+	vertical-align: middle;
+	height: auto;
+	width: auto;
+	padding: 8px;
+}
 
 main p {
 	font-size: 1.25em;
