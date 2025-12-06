@@ -35,6 +35,7 @@ header h1 {
 /* Style rules for navigation area */
 nav {
 	text-align: center;
+	background-color: #373684;
 }
 
 nav ul {
