@@ -79,16 +79,18 @@ main {
 }
 
 /* Style rules for table content*/
+/* Style rules for table content */
 table {
+	margin: 0 auto;
 	width: 100%;
-	align-content: center;
 	max-width: 853px;
 	height: auto;
 	max-height: 480px;
+	border-collapse: collapse; /* optional: cleaner borders */
 }
 
 table tr {
-	align-content: center;
+	width: 100%;
 	max-width: 853px;
 	height: auto;
 	max-height: 480px;
@@ -97,6 +99,7 @@ table tr {
 th {
 	text-align: center;
 }
+
 
 main p {
 	font-size: 1.25em;
