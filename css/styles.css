@@ -49,9 +49,9 @@ nav ul {
 /* source: https://www.w3schools.com/css/css_navbar_horizontal.asp */
 nav li {
 	display: block;
+	text-align: center;
 	font-size: 2em;
 	border-top: 1px solid #e5e9fc;
-	float: left;
 	background-color: #373684;
 }
 
