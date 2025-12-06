@@ -89,15 +89,11 @@ table {
 	border-collapse: collapse; /* optional: cleaner borders */
 }
 
-table tr {
-	width: 100%;
-	max-width: 853px;
-	height: auto;
-	max-height: 480px;
-}
-
-th {
+td, th {
 	text-align: center;
+	vertical-align: middle;
+	height: 40px;
+	padding: 8px;
 }
 
 
