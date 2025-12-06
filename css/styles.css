@@ -81,7 +81,10 @@ main {
 /* Style rules for table content*/
 table {
 	width: 100%;
-
+	align-content: center;
+	max-width: 853px;
+	height: auto;
+	max-height: 480px;
 }
 
 table tr {
