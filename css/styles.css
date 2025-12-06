@@ -78,7 +78,6 @@ main {
 	font-family: Verdana, Arial, sans-serif;
 }
 
-/* Style rules for table content*/
 /* Style rules for table content */
 table {
 	margin: 0 auto;
@@ -92,7 +91,8 @@ table {
 td, th {
 	text-align: center;
 	vertical-align: middle;
-	height: 40px;
+	height: auto;
+	width: auto;
 	padding: 8px;
 }
 
