@@ -107,14 +107,14 @@ table {
 
 /* Highlight row on hover */
 table tr:hover {
-    background-color: #0000;
+    background-color: #111111;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 /* Expanded row style */
 tr.expanded {
-    background-color: #0000; /* subtle highlight */
+    background-color: #111111; /* subtle highlight */
 }
 
 
