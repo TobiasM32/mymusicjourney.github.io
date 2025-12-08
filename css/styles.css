@@ -73,6 +73,8 @@ nav li a {
 
 nav li a:hover {
     background-color: #111111;
+    opacity: 0.7%;
+    transition: 0.3s ease;
 }
 
 /* Style rules for main content */
