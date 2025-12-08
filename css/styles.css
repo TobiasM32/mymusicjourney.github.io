@@ -32,6 +32,7 @@ header {
 
 header h1 {
 	font-family: 'DM Serif Display', serif;
+	top: 0;
 }
 
 /* Style rules for navigation area */
