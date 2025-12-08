@@ -112,11 +112,6 @@ table tr:hover {
     transition: background-color 0.3s ease;
 }
 
-/* Expanded row style */
-tr.expanded {
-    background-color: #111111; /* subtle highlight */
-}
-
 
 td, th {
     align-content: center;
