@@ -26,6 +26,8 @@ header {
 	text-align: center;
 	font-size: 3.0em;
 	color: #373684;
+	padding: 20px;
+	position: relative;
 }
 
 header h1 {
