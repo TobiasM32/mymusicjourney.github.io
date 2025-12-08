@@ -32,6 +32,8 @@ header {
 }
 
 header h1 {
+    position: relative;
+    padding: 10px;
     font-family: 'DM Serif Display', serif;
     top: 0;
 }
