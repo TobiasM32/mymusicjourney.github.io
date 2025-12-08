@@ -140,10 +140,11 @@ main p {
 /* source: https://www.w3schools.com/howto/howto_css_hero_image.asp */
 /* Place text in the middle of the image */
 .hero-text {
+	top: 0;
 	text-align: center;
 	color: #373684;
-	margin: 40px auto;       /* space around the hero text */
-	position: relative;      /* stays in normal flow */
+	margin: 40px auto;
+	position: relative;
 }
 
 #info {
