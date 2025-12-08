@@ -22,7 +22,7 @@ articleDiv {
 
 /* Style rule for images */
 img {
-    max-width: 100%;
+    max-width: 80%;
     display: block;
 }
 
@@ -141,7 +141,8 @@ main p {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/piano (1).jpg");
 
     /* Set a specific height */
-    height: 50%;
+    max-height: 50%;
+    max-width: 70%;
 
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
