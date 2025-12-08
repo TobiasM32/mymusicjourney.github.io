@@ -14,6 +14,10 @@ body, header, nav, ul, main, article, footer, img, h1 {
 articleDiv {
     max-width: 70%;
     background-color: white;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 15px;
 }
 
 /* Style rule for images */
