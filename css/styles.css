@@ -6,115 +6,116 @@ Date: 10/19/2025
 
 /* CSS Reset */
 body, header, nav, ul, main, footer, img, h1 {
-	margin: 0;
-	padding: 0;
-	border: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 /* Style rule for images */
 img {
-	max-width: 100%;
-	display: block; 
+    max-width: 100%;
+    display: block;
 }
+
 .container {
-  text-align: center;
+    text-align: center;
 }
 
 
 /* Style rules for header content */
 header {
-	position: fixed;
-	text-align: center;
-	font-size: 3.0em;
-	color: #373684;
-	padding: 20px;
+    position: fixed;
+    text-align: center;
+    font-size: 3.0em;
+    color: #373684;
+    padding: 20px;
 }
 
 header h1 {
-	font-family: 'DM Serif Display', serif;
-	top: 0;
+    font-family: 'DM Serif Display', serif;
+    top: 0;
 }
 
 /* Style rules for navigation area */
 nav {
-	text-align: center;
-	background-color: #373684;
+    text-align: center;
+    background-color: #373684;
 }
 
 nav ul {
-	list-style-type: none;
-	text-align: center;
-	margin: 0;
-	padding: 0;
-	/*overflow: hidden*/
-	display: flex;
-	justify-content: center;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    /*overflow: hidden*/
+    display: flex;
+    justify-content: center;
 }
 
 /* source: https://www.w3schools.com/css/css_navbar_horizontal.asp */
 nav li {
-	display: block;
-	text-align: center;
-	font-size: 2em;
-	background-color: #373684;
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    background-color: #373684;
 }
 
 nav li a {
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	background-color: #373684;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #373684;
 
 }
 
 nav li a:hover {
-	background-color: #111111;
+    background-color: #111111;
 }
 
 /* Style rules for main content */
 main {
-	padding: 2%;
-	background-color: #e5e9fc;
-	overflow: auto;
-	font-family: Verdana, Arial, sans-serif;
+    padding: 2%;
+    background-color: #e5e9fc;
+    overflow: auto;
+    font-family: Verdana, Arial, sans-serif;
 }
 
 /* Style rules for table content */
 table {
-	margin: 0 auto;
-	width: 100%;
-	max-width: 853px;
-	height: auto;
-	max-height: 480px;
-	border-collapse: collapse; /* optional: cleaner borders */
+    margin: 0 auto;
+    width: 100%;
+    max-width: 853px;
+    height: auto;
+    max-height: 480px;
+    border-collapse: collapse; /* optional: cleaner borders */
 }
 
 td, th {
-	align-content: center;
-	vertical-align: middle;
-	height: auto;
-	width: auto;
-	padding: 8px;
+    align-content: center;
+    vertical-align: middle;
+    height: auto;
+    width: auto;
+    padding: 8px;
 }
 
 iframe {
-	align-content: center;
-	vertical-align: middle;
-	height: auto;
-	width: auto;
-	padding: 8px;
+    align-content: center;
+    vertical-align: middle;
+    height: auto;
+    width: auto;
+    padding: 8px;
 }
 
 main p {
-	font-size: 1.25em;
+    font-size: 1.25em;
 }
- 
+
 .action {
-	font-size: 1.25em;
-	color: #373684; 
-	font-weight: bold;
+    font-size: 1.25em;
+    color: #373684;
+    font-weight: bold;
 }
 
 /* Style rules for instrument content */
@@ -124,38 +125,39 @@ main p {
 
 /* source: https://www.w3schools.com/howto/howto_css_hero_image.asp */
 .hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/piano (1).jpg");
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/piano (1).jpg");
 
-  /* Set a specific height */
-  height: 50%;
+    /* Set a specific height */
+    height: 50%;
 
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    align-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 /* source: https://www.w3schools.com/howto/howto_css_hero_image.asp */
 /* Place text in the middle of the image */
 .hero-text {
-	top: 0;
-	text-align: center;
-	color: #373684;
-	margin: 40px auto;
-	position: relative;
+    top: 0;
+    text-align: center;
+    color: #373684;
+    margin: 40px auto;
+    position: relative;
 }
 
 #info {
-   clear: left;
-   background-color: #c0caf7;
-   padding: 1% 2%;
-   margin-left: 10%;
+    clear: left;
+    background-color: #c0caf7;
+    padding: 1% 2%;
+    margin-left: 10%;
 }
 
 .round {
-	border-radius: 8px;
+    border-radius: 8px;
 }
 
 /* Hide tab-desk class */
@@ -170,17 +172,18 @@ main p {
 
 .tel-link {
     background-color: #373684;
-		padding: 2%;
-		margin: 0 auto;
-		width: 80%;
-		text-align: center;
-		border-radius: 5px;
-} 
+    padding: 2%;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+}
+
 .tel-link a {
     color: #fff;
-		text-decoration: none;
-		font-size: 1.5em;
-		display: block;
+    text-decoration: none;
+    font-size: 1.5em;
+    display: block;
 }
 
 #contact .email-link {
@@ -188,25 +191,25 @@ main p {
     text-decoration: none;
     font-weight: bold;
 }
- 
+
 .map {
     border: 5px solid #373684;
-	width: 95%;
-	height: 50%;
+    width: 95%;
+    height: 50%;
 }
 
 /* Style rules for footer content */
 footer {
     text-align: center;
     font-size: 0.65em;
-    clear: left;  
+    clear: left;
 }
 
 footer a {
     color: #4645a8;
     text-decoration: none;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	background-color: whitesmoke;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: whitesmoke;
 }
