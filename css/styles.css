@@ -11,7 +11,7 @@ body, header, nav, ul, main, article, footer, img, h1 {
     border: 0;
 }
 
-article-div {
+articleDiv {
     max-width: 70%;
     background-color: white;
 }
