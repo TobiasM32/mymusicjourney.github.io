@@ -142,6 +142,8 @@ main p {
 /* Style rules for instrument content */
 #piano, #violin #kindermusik {
     margin: 1%;
+    align-content: center;
+
 }
 
 /* source: https://www.w3schools.com/howto/howto_css_hero_image.asp */
