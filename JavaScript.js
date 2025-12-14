@@ -1,13 +1,12 @@
-const button = document.getElementById("toggleButton");
-const content = document.getElementById("hiddenInfo");
+const button = document.getElementById("toggleVideos");
+const videos = document.getElementById("Favorite Songs");
 
 button.addEventListener("click", () => {
-    if (content.style.display === "none") {
-        content.style.display = "block";
-        button.textContent = "Hide";
+    if (videos.style.display === "none") {
+        videos.style.display = "block";
+        button.textContent = "Hide Videos";
     } else {
-        content.style.display = "none";
-        button.textContent = "Show More";
+        videos.style.display = "none";
+        button.textContent = "Show Videos";
     }
 });
-
