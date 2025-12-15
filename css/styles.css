@@ -102,6 +102,10 @@ nav li a:hover {
 
 .navbar .navbar-expand-sm .navbar-dark .bg-dark {
     position: relative;
+    max-height: 40px;
+    padding: 14px 16px;
+    text-align: center;
+    background-color: #373684;
 }
 
 .navbar-nav li a {
