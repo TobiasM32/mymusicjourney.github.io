@@ -116,6 +116,11 @@ main {
      display: none;
 }
 
+/* Style rules for body content */
+body {
+    padding-top: 70px;
+}
+
 /* Style rules for table content */
 table {
     margin: 0 auto;
