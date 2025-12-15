@@ -92,9 +92,9 @@ nav li a:hover {
     max-height: 40px; /* reduce overall navbar height */
 }
 
-.navbar.navbar-inverse {
+/*.navbar.navbar-inverse {*/
 
-}
+/*}*/
 
 .navbar-nav li a {
     padding-top: 10px;

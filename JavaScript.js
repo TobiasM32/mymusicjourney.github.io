@@ -1,13 +1,12 @@
-/* source: https://www.w3schools.am/howto/howto_js_toggle_hide_show.html#gsc.tab=0 */
-/* Makes the button show/hide the table of videos */
-document.getElementById("toggleVideos").addEventListener("click", function() {
-    const section = document.getElementById("Favorite Songs");
-    if (window.getComputedStyle(section).display === "none") {
-        section.style.display = "block";
-        this.textContent = "Hide my favorite songs";
+const button = document.getElementById("toggleVideos");
+const videos = document.getElementById("Favorite Songs");
+
+button.addEventListener("click", () => {
+    if (videos.style.display === "none") {
+        videos.style.display = "block";
+        button.textContent = "Show my favorite songs";
     } else {
-        section.style.display = "none";
-        this.textContent = "Show my favorite songs";
+        videos.style.display = "none";
+        button.textContent = "Hide my favorite songs";
     }
 });
-
