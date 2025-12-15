@@ -11,6 +11,11 @@ body, header, nav, ul, main, article, footer, img, h1 {
     border: 0;
 }
 
+/* Style rules for body content */
+body {
+    padding-top: 40px;
+}
+
 div {
     max-width: 70%;
     background-color: white;
@@ -91,6 +96,8 @@ nav li a:hover {
 .navbar {
     max-height: 40px;
     padding: 14px 16px;
+    text-align: center;
+    background-color: #373684;
 }
 
 .navbar .navbar-expand-sm .navbar-dark .bg-dark {
@@ -101,7 +108,6 @@ nav li a:hover {
     padding-top: 80px;
     padding-bottom: 80px;
 }
-
 
 /* Style rules for main content */
 main {
@@ -118,11 +124,6 @@ main {
 /* Style rules for the Favorite songs div element */
 #Favorite\ Songs {
      display: none;
-}
-
-/* Style rules for body content */
-body {
-    padding-top: 70px;
 }
 
 /* Style rules for table content */
