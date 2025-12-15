@@ -136,15 +136,6 @@ main {
     padding: 60px;
 }
 
-/* Style rules for the Favorite songs div element */
-#favoriteSongs {
-    display: none;
-}
-
-#favoriteSongs.show {
-    display: block;
-}
-
 
 /* Style rules for table content */
 table {
