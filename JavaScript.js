@@ -8,7 +8,7 @@ button.addEventListener("click", () => {
     } else {
         videos.style.display = "none";
         button.textContent = "Hide my favorite songs";document.getElementById("toggleVideos").addEventListener("click", function() {
-            const section = document.getElementById("favoriteSongs");
+            const section = document.getElementById("Favorite Songs");
             if (window.getComputedStyle(section).display === "none") {
                 section.style.display = "block";
                 this.textContent = "Hide my favorite songs";
