@@ -137,9 +137,14 @@ main {
 }
 
 /* Style rules for the Favorite songs div element */
-#Favorite\ Songs {
-     display: none;
+#favoriteSongs {
+    display: none;
 }
+
+#favoriteSongs.show {
+    display: block;
+}
+
 
 /* Style rules for table content */
 table {
