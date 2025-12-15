@@ -89,7 +89,7 @@ nav li a:hover {
 
 
 .navbar {
-    min-height: 40px; /* reduce overall navbar height */
+    max-height: 40px; /* reduce overall navbar height */
 }
 
 
