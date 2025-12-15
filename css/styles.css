@@ -68,50 +68,49 @@ nav ul {
     justify-content: center;
 }
 
+nav li {
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    background-color: #373684;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #373684;
+
+}
+
+nav li a:hover {
+    background-color: #111111;
+    opacity: 0.6;
+    transition: 0.3s ease;
+}
+
 /* source: https://www.w3schools.com/css/css_navbar_horizontal.asp */
-/*nav li {*/
-/*    display: block;*/
-/*    text-align: center;*/
-/*    font-size: 2em;*/
-/*    background-color: #373684;*/
-/*}*/
+.navbar {
+    max-height: 40px;
+    padding: 14px 16px;
+    text-align: center;
+    background-color: #373684;
+}
 
-/*nav li a {*/
-/*    display: block;*/
-/*    color: white;*/
-/*    text-align: center;*/
-/*    padding: 14px 16px;*/
-/*    text-decoration: none;*/
-/*    background-color: #373684;*/
+.navbar .navbar-expand-sm .navbar-dark .bg-dark {
+    position: relative;
+    max-height: 40px;
+    padding: 14px 16px;
+    text-align: center;
+    background-color: #373684;
+}
 
-/*}*/
-
-/*nav li a:hover {*/
-/*    background-color: #111111;*/
-/*    opacity: 0.6;*/
-/*    transition: 0.3s ease;*/
-/*}*/
-
-
-/*.navbar {*/
-/*    max-height: 40px;*/
-/*    padding: 14px 16px;*/
-/*    text-align: center;*/
-/*    background-color: #373684;*/
-/*}*/
-
-/*.navbar .navbar-expand-sm .navbar-dark .bg-dark {*/
-/*    position: relative;*/
-/*    max-height: 40px;*/
-/*    padding: 14px 16px;*/
-/*    text-align: center;*/
-/*    background-color: #373684;*/
-/*}*/
-
-/*.navbar-nav li a {*/
-/*    padding-top: 80px;*/
-/*    padding-bottom: 80px;*/
-/*}*/
+.navbar-nav li a {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
 
 .navbar-nav .nav-link {
     color: white;
