@@ -1,12 +1,14 @@
-const button = document.getElementById("toggleVideos");
-const videos = document.getElementById("Favorite Songs");
+/* source: https://www.w3schools.am/howto/howto_js_toggle_hide_show.html#gsc.tab=0 */
+/* Makes the button show/hide the table of videos */
+function toggleSongs() {
+    const section = document.getElementById("favoriteSongs");
+    const currentDisplay = window.getComputedStyle(section).display;
 
-button.addEventListener("click", () => {
-    if (videos.style.display === "none") {
-        videos.style.display = "block";
-        button.textContent = "Show my favorite songs";
+    if (currentDisplay === "none") {
+        section.style.display = "block";
+        document.getElementById("toggleButton").textContent = "Hide my favorite songs";
     } else {
-        videos.style.display = "none";
-        button.textContent = "Hide my favorite songs";
+        section.style.display = "none";
+        document.getElementById("toggleButton").textContent = "Show my favorite songs";
     }
-});
+}
