@@ -93,9 +93,9 @@ nav li a:hover {
     padding: 14px 16px;
 }
 
-/*.navbar.navbar-inverse {*/
-
-/*}*/
+.navbar .navbar-expand-sm .navbar-dark .bg-dark {
+    position: relative;
+}
 
 .navbar-nav li a {
     padding-top: 80px;
