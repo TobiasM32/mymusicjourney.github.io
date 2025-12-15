@@ -89,7 +89,8 @@ nav li a:hover {
 
 
 .navbar {
-    max-height: 40px; /* reduce overall navbar height */
+    max-height: 40px;
+    padding: 14px 16px;
 }
 
 /*.navbar.navbar-inverse {*/
@@ -97,8 +98,8 @@ nav li a:hover {
 /*}*/
 
 .navbar-nav li a {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 
