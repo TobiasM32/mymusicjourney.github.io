@@ -87,6 +87,18 @@ nav li a:hover {
     transition: 0.3s ease;
 }
 
+
+.navbar {
+    min-height: 40px; /* reduce overall navbar height */
+}
+
+
+.navbar-nav li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
 /* Style rules for main content */
 main {
     padding: 2%;
