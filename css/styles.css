@@ -95,6 +95,11 @@ main {
     font-family: Verdana, Arial, sans-serif;
 }
 
+/* Style rules for the Favorite songs div element */
+#Favorite\ Songs {
+     display: none;
+}
+
 /* Style rules for table content */
 table {
     margin: 0 auto;
