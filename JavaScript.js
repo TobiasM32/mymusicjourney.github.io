@@ -1,12 +1,16 @@
-const button = document.getElementById("toggleVideos");
-const section = document.getElementById("favoriteSongs");
+document.addEventListener("DOMContentLoaded", () => {
+    const button = document.getElementById("toggleVideos");
+    const section = document.getElementById("favoriteSongs");
 
-button.addEventListener("click", () => {
-    if (window.getComputedStyle(section).display === "none") {
-        section.style.display = "block";
-        button.textContent = "Hide my favorite songs";
-    } else {
-        section.style.display = "none";
-        button.textContent = "Show my favorite songs";
+    if (!button || !section) {
+        console.error("Toggle button or favoriteSongs section not found.");
+        return;
     }
+
+    button.addEventListener("click", () => {
+        section.classList.toggle("show");
+        button.textContent = section.classList.contains("show")
+            ? "Hide my favorite songs"
+            : "Show my favorite songs";
+    });
 });
