@@ -6,9 +6,9 @@ const section = document.getElementById("favoriteSongs");
 button.addEventListener("click", () => {
     if (window.getComputedStyle(section).display === "none") {
         section.style.display = "block";
-        button.textContent = "Favorite songs (show/hide)";
+        button.textContent = "Show/hide favorite songs";
     } else {
         section.style.display = "none";
-        button.textContent = "Favorite songs (show/hide)";
+        button.textContent = "Show/hide favorite songs";
     }
 });
