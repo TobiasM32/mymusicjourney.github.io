@@ -135,6 +135,9 @@ main {
     padding: 60px;
 }
 
+.favoriteSongs {
+    display: none;
+}
 
 /* Style rules for table content */
 table {
