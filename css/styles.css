@@ -25,7 +25,11 @@ div {
     padding: 15px 15px;
 }
 
-#favoriteSongs {
+#kindermusikVid {
+    display: none;
+}
+
+figure {
     display: none;
 }
 
