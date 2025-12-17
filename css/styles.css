@@ -135,7 +135,7 @@ main {
     padding: 60px;
 }
 
-.favoriteSongs {
+div {
     display: none;
 }
 
